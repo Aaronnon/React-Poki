@@ -7,6 +7,7 @@
 }
 .brand {
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 .brand p {
   text-align: center;
@@ -47,19 +48,25 @@
 }
 .brand .imgBx img {
   position: absolute;
-  top: 0;
+  top: 12px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: contain;
+  transition: all 0.4s;
+  cursor: pointer;
 }
 
-.brand .text{
+.brand .imgBx img:hover {
+  transform: scale(1.2);
+}
+
+.brand .text {
   padding: 15px 0 5px;
 }
 
-.brand .text h3{
+.brand .text h3 {
+  text-align: center;
   font-weight: initial;
   color: #111111;
 }
-

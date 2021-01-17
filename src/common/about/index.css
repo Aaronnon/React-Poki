@@ -1,10 +1,11 @@
+
+
 .about {
-  margin: 20px 100px 100px 100px;
+  margin: 20px 60px 100px 60px;
 }
 
 .about .row {
   position: relative;
-
   padding: 200px 0 70px 0;
   width: 100%;
   display: flex;
@@ -12,8 +13,8 @@
 }
 
 .about .co150 {
-  position: relative;
-  width: 48%;
+    position: relative;
+    width: 100%;
 }
 
 .about .titleText {

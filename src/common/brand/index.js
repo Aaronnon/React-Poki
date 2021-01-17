@@ -14,9 +14,9 @@ class Brand extends Component {
         <section className="brand" id="brand">
           <div className="title">
             <h2 className="titleText">
-              <span>B</span>and <span>W</span>all
+              <span>B</span>rand <span>W</span>all
             </h2>
-            <p>Popular brand recommendation Popular brand recommendation</p>
+            <p>Popular brand recommendation</p>
           </div>
           <div className="content">
             <div className="box">
@@ -67,6 +67,11 @@ class Brand extends Component {
                 <h3>POLA</h3>
               </div>
             </div>
+          </div>
+          <div className="title">
+            <a href="/" className="btn">
+              More
+            </a>
           </div>
         </section>
       </Fragment>
